@@ -21,6 +21,7 @@ python student.py --t-path ./experiments/teacher_wrn_40_2_seed0/ --s-arch wrn_16
 ```
 The meanings of flags are:
 > `--t-path`: teacher's checkpoint path. Automatically search the checkpoint containing 'best' keyword in its name.
+
 > `--s-arch`: student's architecture.
 
 All the commands can be found in `command.sh`
