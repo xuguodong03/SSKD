@@ -15,7 +15,7 @@ python teacher.py --arch wrn_40_2 --lr 0.05 --gpu-id 0
 where you can specify the architecture via flags `--arch`
 
 ### Student Training
-An example of teacher training is:
+An example of student training is:
 ```
 python student.py --t-path ./experiments/teacher_wrn_40_2_seed0/ --s-arch wrn_16_2 --lr 0.05 --gpu-id 0
 ```
