@@ -61,3 +61,9 @@ All the commands can be found in `command.sh`
 | FT | 69.19 | 69.01 | 73.58 | 74.31 | 74.95 | 75.18 |
 | CRD | 68.49 | 70.32 | 74.42 | 75.46 | 75.72 | 75.96 |
 | **SSKD** | **71.53** | **72.57** | **75.76** | **78.44** | **78.61** | **77.40** |
+
+## Citation
+If you find this repo useful for your research, please consider citing the paper
+```
+arxiv url (to be updated)
+```
