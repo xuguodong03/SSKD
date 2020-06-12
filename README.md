@@ -1,7 +1,7 @@
 # SSKD
 This repo is the implementation of paper Knowledge Distillation Meets Self-Supervision.
 
-<img src="https://github.com/xuguodong03/SSKD/raw/master/frm.png" width="45%" height="45%">
+<img src="https://github.com/xuguodong03/SSKD/raw/master/frm.png" width="80%" height="80%">
 
 ## Prerequisite
 This repo is tested with Ubuntu 16.04.5, Python 3.7, PyTorch 1.5.0, CUDA 10.2.
