@@ -12,7 +12,7 @@ An example of teacher training is:
 ```
 python teacher.py --arch wrn_40_2 --lr 0.05 --gpu-id 0
 ```
-where you can specify the architecture via flags `--arch`
+where you can specify the architecture via flag `--arch`
 
 ### Student Training
 An example of student training is:
@@ -25,3 +25,11 @@ The meanings of flags are:
 > `--s-arch`: student's architecture.
 
 All the commands can be found in `command.sh`
+
+## Results
+
+### Similar-Architecture
+
+
+
+### Cross-Architecture
