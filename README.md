@@ -30,7 +30,7 @@ All the commands can be found in `command.sh`
 
 ### Similar-Architecture
 
-| Teacher <br> Student | wrn-40-2 <br> wrn-16-2 | wrn-40-2 <br> wrn-40-1 | resnet56 <br> resnet20 | resnet32x4 <br> resnet8x4 |  vgg13 <br> vgg8 |
+| Teacher <br> Student | wrn40-2 <br> wrn16-2 | wrn40-2 <br> wrn40-1 | resnet56 <br> resnet20 | resnet32x4 <br> resnet8x4 |  vgg13 <br> vgg8 |
 |:---------------:|:-----------------:|:-----------------:|:-----------------:|:--------------------:|:-----------:|
 | Teacher <br> Student |    75.61 <br> 73.26    |    75.61 <br> 71.98    |    72.34 <br> 69.06    |     79.42 <br> 72.50     | 74.64 <br> 70.36 |
 | KD | - | - | - | - | - |
@@ -49,3 +49,21 @@ All the commands can be found in `command.sh`
 | SSKD | - | - | - | - | - |
 
 ### Cross-Architecture
+
+| Teacher <br> Student | vgg13 <br> MobieleNetV2 | ResNet50 <br> MobileNetV2 | ResNet50 <br> vgg8 | resnet32x4 <br> ShuffleV1 |  resnet32x4 <br> ShuffleV2 | wrn40-2 |
+|:---------------:|:-----------------:|:-----------------:|:-----------------:|:--------------------:|:-----------:|:-------------:|
+| Teacher <br> Student |    75.38 <br> 65.79    |    79.10 <br> 65.79    |    79.10 <br> 70.68    |    79.63 <br> 70.77     | 79.63 <br> 73.12 | 76.46 <br> 70.77 |
+| KD | - | - | - | - | - | - |
+| FitNet | - | - | - | - | - | - |
+| AT | - | - | - | - | - | - |
+| SP | - | - | - | - | - | - |
+| CC | - | - | - | - | - | - |
+| VID | - | - | - | - | - | - |
+| RKD | - | - | - | - | - | - |
+| PKT | - | - | - | - | - | - |
+| AB | - | - | - | - | - | - |
+| FT | - | - | - | - | - | - |
+| FSP | - | - | - | - | - | - |
+| NST | - | - | - | - | - | - |
+| CRD | - | - | - | - | - | - |
+| SSKD | - | - | - | - | - | - |
