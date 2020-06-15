@@ -1,7 +1,6 @@
 # SSKD
 This repo is the implementation of paper [Knowledge Distillation Meets Self-Supervision](https://arxiv.org/abs/2006.07114).
 
-Pipeline:<br>
 <img src="https://github.com/xuguodong03/SSKD/raw/master/frm.png" width="100%" height="100%">
 
 ## Prerequisite
