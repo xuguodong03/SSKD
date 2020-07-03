@@ -1,5 +1,5 @@
 # SSKD
-This repo is the implementation of paper [Knowledge Distillation Meets Self-Supervision](https://arxiv.org/abs/2006.07114).
+This repo is the implementation of paper [Knowledge Distillation Meets Self-Supervision](https://arxiv.org/abs/2006.07114) (ECCV 2020).
 
 <img src="https://github.com/xuguodong03/SSKD/raw/master/frm.png" width="100%" height="100%">
 
@@ -67,12 +67,10 @@ All the commands can be found in `command.sh`
 ## Citation
 If you find this repo useful for your research, please consider citing the paper
 ```
-@misc{xu2020knowledge,
+@inproceedings{xu2020knowledge,
     title={Knowledge Distillation Meets Self-Supervision},
-    author={Guodong Xu and Ziwei Liu and Xiaoxiao Li and Chen Change Loy},
+    author={Xu, Guodong and Liu, Ziwei and Li, Xiaoxiao and Loy, Chen Change},
+    booktitle={European Conference on Computer Vision (ECCV)},
     year={2020},
-    eprint={2006.07114},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
 }
 ```
