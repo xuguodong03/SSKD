@@ -252,8 +252,8 @@ for epoch in range(args.epoch):
         rank = torch.argmax(torch.eq(rank, aug_target.unsqueeze(1)).long(), dim=1)  # groundtruth label's rank
         index = torch.argsort(rank)
         tmp = torch.nonzero(rank, as_tuple=True)[0]
-        correct_num = tmp.numel()
-        wrong_num = 3*batch - correct_num
+        wrong_num = tmp.numel()
+        correct_num = 3*batch - wrong_num
         wrong_keep = int(wrong_num * args.ratio_tf)
         index = index[:correct_num+wrong_keep]
         distill_index_tf = torch.sort(index)[0]
@@ -276,8 +276,8 @@ for epoch in range(args.epoch):
         rank = torch.argmax(torch.eq(rank, aug_target.unsqueeze(1)).long(), dim=1)  # groundtruth label's rank
         index = torch.argsort(rank)
         tmp = torch.nonzero(rank, as_tuple=True)[0]
-        correct_num = tmp.numel()
-        wrong_num = 3*batch - correct_num
+        wrong_num = tmp.numel()
+        correct_num = 3*batch - wrong_num
         wrong_keep = int(wrong_num * args.ratio_ss)
         index = index[:correct_num+wrong_keep]
         distill_index_ss = torch.sort(index)[0]
