@@ -16,7 +16,8 @@ python teacher.py --arch wrn_40_2 --lr 0.05 --gpu-id 0
 ```
 where you can specify the architecture via flag `--arch`
 
-You can also download all the pre-trained teacher models [here](https://drive.google.com/drive/folders/1vJ0VdeFRd9a50ObbBD8SslBtmqmj8p8r?usp=sharing).
+You can also download all the pre-trained teacher models [here](https://drive.google.com/drive/folders/1vJ0VdeFRd9a50ObbBD8SslBtmqmj8p8r?usp=sharing). 
+If you want to run `student.py` directly, you have to re-organise the directory. For instance, when you download `vgg13.pth`, you have to make a directory for it, say `teacher_vgg13`, and then make a new directory `ckpt` inside `teacher_vgg13`. Move the `vgg13.pth` into `teacher_vgg13/ckpt` and rename it as `best.pth`. If you want a simpler way to use pre-trained model, you can edit the code in `student.py` (line 90).
 
 ### Student Training
 An example of student training is:
