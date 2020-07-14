@@ -16,6 +16,8 @@ python teacher.py --arch wrn_40_2 --lr 0.05 --gpu-id 0
 ```
 where you can specify the architecture via flag `--arch`
 
+You can also download all the pre-trained teacher models [here](https://drive.google.com/drive/folders/1vJ0VdeFRd9a50ObbBD8SslBtmqmj8p8r?usp=sharing).
+
 ### Student Training
 An example of student training is:
 ```
